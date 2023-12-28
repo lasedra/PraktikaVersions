@@ -28,7 +28,7 @@
 
 		<Version>1.0.0</Version>
 
-		<NuspecFile>$(SolutionDir)VersionsExample\ReleaseSpec.nuspec</NuspecFile>
+		<NuspecFile>$(SolutionDir)PraktikaVersions\ReleaseSpec.nuspec</NuspecFile>
 	</PropertyGroup>
 
 	<Target Name="GenerateRelease" AfterTargets="AfterBuild" Condition="$(Configuration) == Release">
