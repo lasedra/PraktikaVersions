@@ -14,7 +14,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Name="VersionTextBox" Text="Current version: " FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="VersionDescription" Text="Description: " VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5"/>
+        <TextBlock Name="VersionDescription" Text="Description: какие-то изменения были" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5"/>
         <ListView Grid.Row="1" Name="UserListView" Background="LightGray">
             <ListView.ItemTemplate>
                 <DataTemplate>
