@@ -6,15 +6,20 @@
         xmlns:local="clr-namespace:PraktikaVersions"
         mc:Ignorable="d"
         Title="Users" Height="450" Width="500"
-        MinHeight="450"
-        MinWidth="500">
+        MinHeight="500"
+        MinWidth="700">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Name="VersionTextBox" Text="Current version: " FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Name="VersionDescription" Text="Description: какие-то изменения были" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="5"/>
+
+
+        <TextBlock Name="FailTextBox" Text="CONNECTION FAILED" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden"/>
+        <StackPanel Name="VersionStackPanel" Orientation="Horizontal" Margin="3">
+            <TextBlock Text="Current version: " FontWeight="Bold" />
+            <TextBlock Name="VersionTextBox"/>
+        </StackPanel>
         <ListView Grid.Row="1" Name="UserListView" Background="LightGray">
             <ListView.ItemTemplate>
                 <DataTemplate>
