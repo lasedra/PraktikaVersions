@@ -67,3 +67,4 @@ C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\PraktikaVersions.pdb
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\PraktikaVersions.genruntimeconfig.cache
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\ref\PraktikaVersions.dll
+C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Octokit.dll

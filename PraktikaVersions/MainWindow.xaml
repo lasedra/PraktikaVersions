@@ -14,12 +14,29 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-
         <TextBlock Name="FailTextBox" Text="CONNECTION FAILED" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden"/>
-        <StackPanel Name="VersionStackPanel" Orientation="Horizontal" Margin="3">
-            <TextBlock Text="Current version: " FontWeight="Bold" />
-            <TextBlock Name="VersionTextBox"/>
+        
+        <StackPanel Name="VersionsPanel" >
+            <StackPanel  Orientation="Horizontal" VerticalAlignment="Top" Margin="3" Height="30">
+                <TextBlock Text="Current version: " FontWeight="Bold" />
+                <TextBlock Name="VersionTextBox"/>
+            </StackPanel>
+            <DockPanel Margin="3" Height="30">
+                <TextBlock Text="Available versions: " FontWeight="Bold" VerticalAlignment="Center" />
+                <ComboBox Margin="3" Name="VersionsComboBox" Width="450">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding TagName}" FontWeight="Bold" />
+                                <TextBlock Text="{Binding Body}" FontStyle="Italic" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button Margin="3" Name="UpdateBttn" HorizontalAlignment="Right" Width="60" Click="UpdateBttn_Click">Update</Button>
+            </DockPanel>
         </StackPanel>
+        
         <ListView Grid.Row="1" Name="UserListView" Background="LightGray">
             <ListView.ItemTemplate>
                 <DataTemplate>

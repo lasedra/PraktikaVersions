@@ -56,14 +56,4 @@ C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-w
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.EventLog.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.EventSource.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\DeltaCompressionDotNet.MsDelta.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\DeltaCompressionDotNet.PatchApi.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\DeltaCompressionDotNet.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Mono.Cecil.Mdb.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Mono.Cecil.Pdb.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Mono.Cecil.Rocks.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Mono.Cecil.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\SharpCompress.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Splat.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\NuGet.Squirrel.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Squirrel.dll
+C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Octokit.dll

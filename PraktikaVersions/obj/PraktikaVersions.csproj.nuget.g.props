@@ -18,8 +18,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.14\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.14\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Pkgsquirrel_windows Condition=" '$(Pkgsquirrel_windows)' == '' ">C:\Users\.eski\.nuget\packages\squirrel.windows\1.9.0</Pkgsquirrel_windows>
-    <PkgNuGet_CommandLine Condition=" '$(PkgNuGet_CommandLine)' == '' ">C:\Users\.eski\.nuget\packages\nuget.commandline\6.8.0</PkgNuGet_CommandLine>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\.eski\.nuget\packages\microsoft.entityframeworkcore.tools\7.0.14</PkgMicrosoft_EntityFrameworkCore_Tools>
   </PropertyGroup>
 </Project>
