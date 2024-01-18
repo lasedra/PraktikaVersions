@@ -51,7 +51,7 @@ namespace PraktikaVersions
             if (VersionsComboBox.SelectedItem != null)
             {
                 var releaseToDownload = releases.First(r => r.TagName == ((Release)VersionsComboBox.SelectedItem).TagName);
-                if (releaseToDownload.TagName != VersionTextBox.Text) //TODO: Проверка на версию
+                if (releaseToDownload.TagName.Trim() != VersionTextBox.Text.Trim())
                 {
                     var result = MessageBox.Show($"Are you sure you wanna update to version: {releaseToDownload.TagName}?", "Warning!", MessageBoxButton.YesNo, MessageBoxImage.Warning);
                     if (result == MessageBoxResult.Yes)
