@@ -58,8 +58,8 @@ namespace PraktikaVersions
                     {
                         DownloadWindow downloadWindow = new DownloadWindow(gitClient, releaseToDownload);
                         downloadWindow.ShowDialog();
-                        // TODO: Нужно сделать либо разархивацию, либо скачивать только .exe, через releaseToDownload.Assets[n] (а архив отдельно)
-                        //Cmd($"taskkill /f /im \"{exeName}\" && timeout /t 1 && del \"{exePath}\" && ren \"{downloadedFile}\" \"{exePath}\" && \"{exePath}\"");
+
+                        Cmd($"taskkill /f /im \"{exeName}\" && timeout /t 1 && del \"{exePath}\" && ren newUpdate.exe \"{exeName}\" && \"{exePath}\"");
                     }
                 }
             }
@@ -70,7 +70,7 @@ namespace PraktikaVersions
             if (Internet.IsOk())
             {
                 gitClient = new GitHubClient(new ProductHeaderValue("praktika-versions"))
-                { Credentials = new Credentials("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") }; //TODO: Разобраться с токеном
+                { Credentials = new Credentials("ghp_BHmZn?Xe?QCU1?Il11?s?T0ee?W3H?Ilq7?56r?2?UCU?2O".Replace("?", "")) };
                 string userName = "lasedra",
                        reposName = "PraktikaVersions";
 

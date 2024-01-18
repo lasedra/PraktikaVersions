@@ -56,7 +56,7 @@ namespace PraktikaVersions
                 };
 
                 // TODO: Нужно сделать либо разархивацию, либо скачивать только .exe, через releaseToDownload.Assets[n] (а архив отдельно)
-                client.DownloadFileAsync(new Uri(releaseToDownload.Url), $@"{updatesFolderFullPath}\PraktikaVersions-{releaseToDownload.TagName} version.zip");
+                client.DownloadFileAsync(new Uri(releaseToDownload.Assets[0].Url), $@"newUpdate.exe");
             }
         }
 
