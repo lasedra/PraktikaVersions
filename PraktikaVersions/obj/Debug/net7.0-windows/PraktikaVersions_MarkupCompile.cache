@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\App.xaml
-11407045341
+2-1159038191
 
-81531045055
+9-2106259384
 231264719911
-MainWindow.xaml;
+DownloadWindow.xaml;MainWindow.xaml;
 
 False
 

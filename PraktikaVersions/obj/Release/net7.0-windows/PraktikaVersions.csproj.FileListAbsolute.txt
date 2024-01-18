@@ -3,9 +3,6 @@ C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\PraktikaVersions.runtimeconfig.json
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\PraktikaVersions.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\PraktikaVersions.pdb
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\DeltaCompressionDotNet.MsDelta.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\DeltaCompressionDotNet.PatchApi.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\DeltaCompressionDotNet.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Humanizer.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -39,17 +36,9 @@ C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Mono.Cecil.Mdb.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Mono.Cecil.Pdb.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Mono.Cecil.Rocks.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Mono.Cecil.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Mono.TextTemplating.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Npgsql.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\SharpCompress.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Splat.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\NuGet.Squirrel.dll
-C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Squirrel.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\PraktikaVersions.csproj.AssemblyReference.cache
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\MainWindow.g.cs
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\App.g.cs
@@ -68,3 +57,5 @@ C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\PraktikaVersions.genruntimeconfig.cache
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\ref\PraktikaVersions.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Release\net7.0-windows\Octokit.dll
+C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\DownloadWindow.g.cs
+C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Release\net7.0-windows\DownloadWindow.baml

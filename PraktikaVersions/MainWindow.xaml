@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PraktikaVersions"
         mc:Ignorable="d"
-        Title="Users" Height="450" Width="500"
+        Title="Home" Height="450" Width="500"
         MinHeight="500"
-        MinWidth="700">
+        MinWidth="700"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
@@ -17,10 +19,8 @@
         <TextBlock Name="FailTextBox" Text="CONNECTION FAILED" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden"/>
         
         <StackPanel Name="VersionsPanel" >
-            <StackPanel  Orientation="Horizontal" VerticalAlignment="Top" Margin="3" Height="30">
-                <TextBlock Text="Current version: " FontWeight="Bold" />
-                <TextBlock Name="VersionTextBox"/>
-            </StackPanel>
+            <TextBlock Name="VersionTextBox" Text="Current version - " FontWeight="Bold" Margin="3" Height="30"/>
+
             <DockPanel Margin="3" Height="30">
                 <TextBlock Text="Available versions: " FontWeight="Bold" VerticalAlignment="Center" />
                 <ComboBox Margin="3" Name="VersionsComboBox" Width="450">

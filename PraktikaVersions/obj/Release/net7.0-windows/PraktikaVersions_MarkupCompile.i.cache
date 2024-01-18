@@ -1,5 +1,5 @@
 ﻿PraktikaVersions
-1.0.2.0
+1.0.0.0
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET7_0;NETCOREAPP
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\App.xaml
-11407045341
+2-1159038191
 
-10334406058
-242579964334
-MainWindow.xaml;
+11992068915
+231264719911
+DownloadWindow.xaml;MainWindow.xaml;
 
-True
+False
 

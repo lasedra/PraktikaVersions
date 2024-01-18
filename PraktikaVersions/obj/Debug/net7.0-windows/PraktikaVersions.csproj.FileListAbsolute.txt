@@ -57,3 +57,5 @@ C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-w
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.EventSource.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\bin\Debug\net7.0-windows\Octokit.dll
+C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Debug\net7.0-windows\DownloadWindow.g.cs
+C:\Users\.eski\source\repos\PraktikaVersions\PraktikaVersions\obj\Debug\net7.0-windows\DownloadWindow.baml
