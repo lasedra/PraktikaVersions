@@ -77,7 +77,7 @@ namespace PraktikaVersions {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PraktikaVersions;component/downloadwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PraktikaVersions;V1.0.0.0;component/downloadwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DownloadWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

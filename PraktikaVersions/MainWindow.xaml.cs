@@ -34,8 +34,6 @@ namespace PraktikaVersions
             }
         }
 
-        //TODO: Проверятель обновлений
-
         private void UpdateBttn_Click(object sender, RoutedEventArgs e)
         {
             if (VersionsComboBox.SelectedItem != null)
