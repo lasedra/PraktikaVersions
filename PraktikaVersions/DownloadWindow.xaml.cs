@@ -25,16 +25,15 @@ namespace PraktikaVersions
         }
         #endregion
 
-        GitHubClient gitClient = null!;
+        Updater updater = null!;
         Release releaseToDownload = null!;
-        string updatesFolderFullPath = Path.Combine(GetParentDirectory(AppDomain.CurrentDomain.BaseDirectory, 4), @"updates");
 
-        public DownloadWindow(GitHubClient _gitClient, Release _releaseToDownload)
+        public DownloadWindow(Updater _updater, Release _releaseToDownload)
         {
             InitializeComponent();
             Loaded += ToolWindow_Loaded;
 
-            this.gitClient = _gitClient;
+            this.updater = _updater;
             this.releaseToDownload = _releaseToDownload;
             TagNameTextBox.Text += releaseToDownload.TagName;
             NoteTextBox.Text = releaseToDownload.Body;
@@ -44,7 +43,7 @@ namespace PraktikaVersions
         {
             using(WebClient client = new WebClient())
             {
-                client.Headers.Add("Authorization", $"Bearer {gitClient.Credentials.GetToken()}");
+                client.Headers.Add("Authorization", $"Bearer {updater.GitClient.Credentials.GetToken()}");
                 client.Headers.Add("User-Agent", "smth");
 
                 client.DownloadProgressChanged += (s, e)

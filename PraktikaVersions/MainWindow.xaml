@@ -8,7 +8,6 @@
         Title="Home" Height="450" Width="500"
         MinHeight="500"
         MinWidth="700"
-        Loaded="Window_Loaded"
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
@@ -22,7 +21,7 @@
             <TextBlock Name="VersionTextBox" Text="Current version - " FontWeight="Bold" Margin="3" Height="30"/>
 
             <DockPanel Margin="3" Height="30">
-                <TextBlock Text="Available versions: " FontWeight="Bold" VerticalAlignment="Center" />
+                <TextBlock Name="AvailableVersionsTextBlock" Text="Available versions: " FontWeight="Bold" VerticalAlignment="Center" />
                 <ComboBox Margin="3" Name="VersionsComboBox" Width="450">
                     <ComboBox.ItemTemplate>
                         <DataTemplate>
