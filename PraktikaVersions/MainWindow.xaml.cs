@@ -9,6 +9,7 @@ namespace PraktikaVersions
     public partial class MainWindow : Window
     {
         Updater updater = new Updater();
+        string currVer = Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
         public MainWindow()
         {
@@ -17,7 +18,7 @@ namespace PraktikaVersions
 
             if (updater != null && updater.IsConnectionOk())
             {
-                VersionTextBox.Text += Assembly.GetExecutingAssembly().GetName().Version.ToString();
+                VersionTextBox.Text += currVer;
                 if(updater.Releases.Result.Any())
                     VersionsComboBox.ItemsSource = updater.Releases.Result;
                 else
@@ -39,7 +40,7 @@ namespace PraktikaVersions
             if (VersionsComboBox.SelectedItem != null)
             {
                 var releaseToDownload = ((Release)VersionsComboBox.SelectedItem);
-                if (releaseToDownload.TagName.Trim() != VersionTextBox.Text.Trim())
+                if (releaseToDownload.TagName.Trim() != currVer)
                 {
                     var result = MessageBox.Show($"Do you wanna update to version: {releaseToDownload.TagName}?", "Warning!", MessageBoxButton.YesNo, MessageBoxImage.Warning);
                     if (result == MessageBoxResult.Yes)
@@ -49,6 +50,7 @@ namespace PraktikaVersions
                         updater.ApplyNewUpdate();
                     }
                 }
+                else { MessageBox.Show($"bruh...", "", MessageBoxButton.OK, MessageBoxImage.Question); }
             }
         }
     }
