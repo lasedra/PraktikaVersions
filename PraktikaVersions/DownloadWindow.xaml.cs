@@ -57,12 +57,5 @@ namespace PraktikaVersions
                 client.DownloadFileAsync(new Uri(releaseToDownload.Assets[0].BrowserDownloadUrl), $"newUpdate.exe");
             }
         }
-
-        private static string GetParentDirectory(string path, int levels)
-        {
-            for (int i = 0; i < levels; i++)
-                path = Directory.GetParent(path).FullName;
-            return path;
-        }
     }
 }

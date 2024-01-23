@@ -13,16 +13,14 @@ namespace PraktikaVersions
     {
         public GitHubClient? GitClient { get; private set; }
         public Task<IReadOnlyList<Release>>? Releases { get; private set; }
-        private string? ExeName { get; set; }
-        private string? ExePath { get; set; }
+        private string? ExeName { get; set; } = AppDomain.CurrentDomain.FriendlyName + ".exe";
+        private string? ExePath { get; set; } = Process.GetCurrentProcess().MainModule.FileName;
 
         public Updater()
         {
             if (IsConnectionOk())
             {
                 Directory.SetCurrentDirectory(AppContext.BaseDirectory);
-                ExeName = AppDomain.CurrentDomain.FriendlyName + ".exe";
-                ExePath = Process.GetCurrentProcess().MainModule.FileName;
 
                 GitClient = new GitHubClient(new ProductHeaderValue("praktika-versions"))
                     { Credentials = new Credentials("ghp_BHmZn?Xe?QCU1?Il11?s?T0ee?W3H?Ilq7?56r?2?UCU?2O".Replace("?", "")) };
